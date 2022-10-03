@@ -7,3 +7,5 @@ These two sensors sit beside each other, and when the signal differential betwee
 We can use ESP32CAM in both online and offline cases . let's talk about offline case it doesn't need WIFI for communication and it manually stores the picture in the MicroSD card and later when u want to see the pictures you simply remove the MicroSD card from ESP32CAM and read it by using card reader but it needs a constant 5V External power supply. 
 
 Next online case it requires WIFI connection to send and receive messages here we don't need MicroSD card and for long meter connections we use IPEX connector.
+
+## Just import the code into your Arduino IDE and give the correct credentials of the telegram bot id and token and thats it......
