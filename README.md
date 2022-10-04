@@ -1,11 +1,13 @@
 # Iconic_Eye
-# Its like a third eye that captures photo when motion is detected.
-the photos are send to user's telegram account. The major components are ESP32CAM, FTDI USB, PIR SENSOR.
-The ESP32-CAM provides an inexpensive way to build more advanced home automation projects that feature video, taking photos, and face recognition and the FTDI USB Serial Port driver is the software that helps your operating system to communicate with USB Serial Port devices and finally the Passive infrared (PIR) sensors use a pair of pyroelectric sensors to detect heat energy in the surrounding environment. 
-These two sensors sit beside each other, and when the signal differential between the two sensors changes.
+## Just import the code into your Arduino IDE and give the correct credentials of the telegram bot id and token and thats it......Before that install the necessary libraries for that
 
-We can use ESP32CAM in both online and offline cases . let's talk about offline case it doesn't need WIFI for communication and it manually stores the picture in the MicroSD card and later when u want to see the pictures you simply remove the MicroSD card from ESP32CAM and read it by using card reader but it needs a constant 5V External power supply. 
-
-Next online case it requires WIFI connection to send and receive messages here we don't need MicroSD card and for long meter connections we use IPEX connector.
-
-## Just import the code into your Arduino IDE and give the correct credentials of the telegram bot id and token and thats it......
+##Installing ESP32 Add-on in Arduino IDE
+To install the ESP32 board in your Arduino IDE, follow these next instructions:
+1. In your Arduino IDE, go to File> Preferences
+2. Enter the following into the “Additional Board Manager URLs” field:
+    https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json,http://arduino.esp8266.com/stable/package_esp8266com_index.json
+#Note: if you already have the ESP8266 boards URL, you can separate the URLs with a comma as follows:
+3. Open the Boards Manager. Go to Tools > Board > Boards Manager…
+4. Search for ESP32 and press install button for the "ESP32 by Espressif Systems":
+5. That’s it. It should be installed after a few seconds.
+6. Now select your Board in Tools > Board menu > YOUR MODEL CAMERA.
