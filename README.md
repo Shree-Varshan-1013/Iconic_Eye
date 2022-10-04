@@ -1,7 +1,6 @@
 # Iconic_Eye
 ## Just import the code into your Arduino IDE and give the correct credentials of the telegram bot id and token and thats it......Before that install the necessary libraries for that
-
-##Installing ESP32 Add-on in Arduino IDE
+Installing ESP32 Add-on in Arduino IDE
 To install the ESP32 board in your Arduino IDE, follow these next instructions:
 1. In your Arduino IDE, go to File> Preferences
 2. Enter the following into the “Additional Board Manager URLs” field:
